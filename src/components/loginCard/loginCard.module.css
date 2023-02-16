@@ -1,10 +1,12 @@
 .card {
-    background-color: #fff;
-    width: 400px;
-    padding: 20px;
-    border-radius: 10px;
+  color: black;
+  background-color: #fff;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .title {
-    text-align: center;
+  text-align: center;
+  color: black;
 }

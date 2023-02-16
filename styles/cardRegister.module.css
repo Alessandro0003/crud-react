@@ -1,18 +1,19 @@
 .background {
-    background-image: url("../src/components/img/ibflorestas.jpg");
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-image: url("../src/components/img/ibflorestas.jpg");
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: black;
 }
 
 .error {
-    color: red;
-    font-weight: bold;
+  color: red;
+  font-weight: bold;
 }
