@@ -44,12 +44,20 @@ export default function LoginPage(){
         <div className={styles.background}>
           <LoginCard title="Entre em Sua Conta" >
                 <form className={styles.form} onSubmit={handleForm}>
-                    <Input type="email" placeholder="Seu Email" requerid value={formData.email} 
-                        onChange={(e) => {handleFormEdit(e, 'email')}}/>
-                    <Input type="password" placeholder="Sua Senha" requerid value={formData.password} 
-                        onChange={(e) => {handleFormEdit(e, 'password')}}/>
+                    <Input type="email" 
+                        placeholder="Digite seu Email" 
+                        required
+                        value={formData.email} 
+                        onChange={(e) => {handleFormEdit(e, 'email')}}
+                    />
+                    <Input type="password" 
+                        placeholder="Digite sua Senha" 
+                        required
+                        alue={formData.password} 
+                        onChange={(e) => {handleFormEdit(e, 'password')}}
+                    />
                     <Button>Entrar</Button>
-                    <Link href="/cadastro">Ainda não Possui cadastro?</Link>
+                    <Link href="/cadastro" className={styles.link}>Ainda não Possui cadastro?</Link>
                     {error && <p className={styles.error}>{error}</p>}
                 </form>
             </LoginCard>

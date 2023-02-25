@@ -48,7 +48,7 @@ export default function CadastroPage() {
           <Input
             type="text"
             placeholder="Digite seu Nome"
-            requerid
+            required
             value={formData.name}
             onChange={(e) => {
               handleFormEdit(e, "name");
@@ -58,7 +58,7 @@ export default function CadastroPage() {
           <Input
             type="text"
             placeholder="Digite seu Sobrenome"
-            requerid
+            required
             value={formData.sobrenome}
             onChange={(e) => {
               handleFormEdit(e, "sobrenome");
@@ -67,8 +67,8 @@ export default function CadastroPage() {
 
           <Input
             type="email"
-            placeholder="Seu e-mail"
-            requerid
+            placeholder="Digite seu E-mail"
+            required
             value={formData.email}
             onChange={(e) => {
               handleFormEdit(e, "email");
@@ -77,8 +77,8 @@ export default function CadastroPage() {
 
           <Input
             type="password"
-            placeholder="Sua Senha"
-            requerid
+            placeholder="Digite sua Senha"
+            required
             value={formData.password}
             onChange={(e) => {
               handleFormEdit(e, "password");
@@ -87,7 +87,7 @@ export default function CadastroPage() {
 
           <Button>Cadastrar</Button>
           {error && <p className={styles.error}>{error}</p>}
-          <Link href="/login">Já tem Cadastro?</Link>
+          <Link href="/login" className={styles.link}>Já tem Cadastro?</Link>
         </form>
       </LoginCard>
     </div>
