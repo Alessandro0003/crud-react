@@ -3,8 +3,6 @@ import Image from "next/image";
 import { getCookie } from "cookies-next";
 import { useEffect } from "react";
 import { verifica } from "../services/user";
-import { BiUserCircle } from "react-icons/Bi";
-import { FaTractor } from "react-icons/Fa";
 
 export default function Home() {
   
