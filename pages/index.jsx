@@ -10,7 +10,7 @@ export default function Home() {
   
   return (
       <div>
-        <h2>Pagina Segura</h2>
+        <h2>Pagina Segura de Usuarios</h2>
       </div>
   );
 }
