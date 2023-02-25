@@ -47,7 +47,7 @@ export default function CadastroPage() {
         <form onSubmit={handleForm} className={styles.form}>
           <Input
             type="text"
-            placeholder="Digite seu Nome"
+            placeholder="Digite Seu Nome"
             required
             value={formData.name}
             onChange={(e) => {
@@ -57,7 +57,7 @@ export default function CadastroPage() {
 
           <Input
             type="text"
-            placeholder="Digite seu Sobrenome"
+            placeholder="Digite Seu Sobrenome"
             required
             value={formData.sobrenome}
             onChange={(e) => {
@@ -67,7 +67,7 @@ export default function CadastroPage() {
 
           <Input
             type="email"
-            placeholder="Digite seu E-mail"
+            placeholder="Digite Seu E-mail"
             required
             value={formData.email}
             onChange={(e) => {
@@ -77,7 +77,7 @@ export default function CadastroPage() {
 
           <Input
             type="password"
-            placeholder="Digite sua Senha"
+            placeholder="Digite Sua Senha"
             required
             value={formData.password}
             onChange={(e) => {

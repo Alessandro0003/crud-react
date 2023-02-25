@@ -45,13 +45,13 @@ export default function LoginPage(){
           <LoginCard title="Entre em Sua Conta" >
                 <form className={styles.form} onSubmit={handleForm}>
                     <Input type="email" 
-                        placeholder="Digite seu Email" 
+                        placeholder="Digite Seu Email" 
                         required
                         value={formData.email} 
                         onChange={(e) => {handleFormEdit(e, 'email')}}
                     />
                     <Input type="password" 
-                        placeholder="Digite sua Senha" 
+                        placeholder="Digite Sua Senha" 
                         required
                         alue={formData.password} 
                         onChange={(e) => {handleFormEdit(e, 'password')}}
